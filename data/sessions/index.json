@@ -1,0 +1,464 @@
+[
+  {
+    "sessionId": "p001_cutting_1",
+    "playerId": "p001",
+    "date": "2026-07-01",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p001_cutting_2",
+    "playerId": "p001",
+    "date": "2026-07-08",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p001_cutting_3",
+    "playerId": "p001",
+    "date": "2026-07-15",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p001_cutting_4",
+    "playerId": "p001",
+    "date": "2026-07-22",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p001_cutting_5",
+    "playerId": "p001",
+    "date": "2026-07-28",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p002_cod_1",
+    "playerId": "p002",
+    "date": "2026-07-15",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p002_cod_2",
+    "playerId": "p002",
+    "date": "2026-07-22",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p002_cod_3",
+    "playerId": "p002",
+    "date": "2026-07-28",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p003_cutting_1",
+    "playerId": "p003",
+    "date": "2026-06-24",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p003_cutting_2",
+    "playerId": "p003",
+    "date": "2026-07-05",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p003_cutting_3",
+    "playerId": "p003",
+    "date": "2026-07-16",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p003_cutting_4",
+    "playerId": "p003",
+    "date": "2026-07-26",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p004_cutting_1",
+    "playerId": "p004",
+    "date": "2026-07-08",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p004_cutting_2",
+    "playerId": "p004",
+    "date": "2026-07-16",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p004_cutting_3",
+    "playerId": "p004",
+    "date": "2026-07-22",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p005_cutting_1",
+    "playerId": "p005",
+    "date": "2026-07-03",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p005_cutting_2",
+    "playerId": "p005",
+    "date": "2026-07-09",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p005_cutting_3",
+    "playerId": "p005",
+    "date": "2026-07-15",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p005_cutting_4",
+    "playerId": "p005",
+    "date": "2026-07-25",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p006_cutting_1",
+    "playerId": "p006",
+    "date": "2026-07-02",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p006_cutting_2",
+    "playerId": "p006",
+    "date": "2026-07-11",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p006_cutting_3",
+    "playerId": "p006",
+    "date": "2026-07-17",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p006_cutting_4",
+    "playerId": "p006",
+    "date": "2026-07-25",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p007_cod_1",
+    "playerId": "p007",
+    "date": "2026-07-18",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p007_cod_2",
+    "playerId": "p007",
+    "date": "2026-07-22",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p008_cod_1",
+    "playerId": "p008",
+    "date": "2026-07-02",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p008_cod_2",
+    "playerId": "p008",
+    "date": "2026-07-10",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p008_cod_3",
+    "playerId": "p008",
+    "date": "2026-07-16",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p008_cod_4",
+    "playerId": "p008",
+    "date": "2026-07-25",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p009_cutting_1",
+    "playerId": "p009",
+    "date": "2026-07-03",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p009_cutting_2",
+    "playerId": "p009",
+    "date": "2026-07-09",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p009_cutting_3",
+    "playerId": "p009",
+    "date": "2026-07-15",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p009_cutting_4",
+    "playerId": "p009",
+    "date": "2026-07-25",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p010_cod_1",
+    "playerId": "p010",
+    "date": "2026-07-15",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p010_cod_2",
+    "playerId": "p010",
+    "date": "2026-07-23",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p011_cutting_1",
+    "playerId": "p011",
+    "date": "2026-07-04",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p011_cutting_2",
+    "playerId": "p011",
+    "date": "2026-07-11",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p011_cutting_3",
+    "playerId": "p011",
+    "date": "2026-07-16",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p011_cutting_4",
+    "playerId": "p011",
+    "date": "2026-07-25",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p012_cutting_1",
+    "playerId": "p012",
+    "date": "2026-07-02",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p012_cutting_2",
+    "playerId": "p012",
+    "date": "2026-07-08",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p012_cutting_3",
+    "playerId": "p012",
+    "date": "2026-07-17",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p012_cutting_4",
+    "playerId": "p012",
+    "date": "2026-07-22",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p013_cod_1",
+    "playerId": "p013",
+    "date": "2026-07-16",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p013_cod_2",
+    "playerId": "p013",
+    "date": "2026-07-25",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p014_cod_1",
+    "playerId": "p014",
+    "date": "2026-07-02",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p014_cod_2",
+    "playerId": "p014",
+    "date": "2026-07-08",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p014_cod_3",
+    "playerId": "p014",
+    "date": "2026-07-16",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p014_cod_4",
+    "playerId": "p014",
+    "date": "2026-07-22",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p015_cutting_1",
+    "playerId": "p015",
+    "date": "2026-07-16",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p015_cutting_2",
+    "playerId": "p015",
+    "date": "2026-07-24",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p016_cutting_1",
+    "playerId": "p016",
+    "date": "2026-07-08",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p016_cutting_2",
+    "playerId": "p016",
+    "date": "2026-07-17",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p016_cutting_3",
+    "playerId": "p016",
+    "date": "2026-07-22",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p017_cutting_1",
+    "playerId": "p017",
+    "date": "2026-07-10",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p017_cutting_2",
+    "playerId": "p017",
+    "date": "2026-07-17",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p017_cutting_3",
+    "playerId": "p017",
+    "date": "2026-07-25",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p018_cod_1",
+    "playerId": "p018",
+    "date": "2026-07-03",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p018_cod_2",
+    "playerId": "p018",
+    "date": "2026-07-11",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p018_cod_3",
+    "playerId": "p018",
+    "date": "2026-07-17",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p018_cod_4",
+    "playerId": "p018",
+    "date": "2026-07-25",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p019_cutting_1",
+    "playerId": "p019",
+    "date": "2026-07-08",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p019_cutting_2",
+    "playerId": "p019",
+    "date": "2026-07-15",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p019_cutting_3",
+    "playerId": "p019",
+    "date": "2026-07-23",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p020_cutting_1",
+    "playerId": "p020",
+    "date": "2026-07-16",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p020_cutting_2",
+    "playerId": "p020",
+    "date": "2026-07-23",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p021_cod_1",
+    "playerId": "p021",
+    "date": "2026-07-03",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p021_cod_2",
+    "playerId": "p021",
+    "date": "2026-07-10",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p021_cod_3",
+    "playerId": "p021",
+    "date": "2026-07-16",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p021_cod_4",
+    "playerId": "p021",
+    "date": "2026-07-25",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p022_cutting_1",
+    "playerId": "p022",
+    "date": "2026-07-09",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p022_cutting_2",
+    "playerId": "p022",
+    "date": "2026-07-15",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p022_cutting_3",
+    "playerId": "p022",
+    "date": "2026-07-24",
+    "sequenceType": "cutting"
+  },
+  {
+    "sessionId": "p023_cod_1",
+    "playerId": "p023",
+    "date": "2026-07-03",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p023_cod_2",
+    "playerId": "p023",
+    "date": "2026-07-09",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p023_cod_3",
+    "playerId": "p023",
+    "date": "2026-07-15",
+    "sequenceType": "cod"
+  },
+  {
+    "sessionId": "p023_cod_4",
+    "playerId": "p023",
+    "date": "2026-07-25",
+    "sequenceType": "cod"
+  }
+]

@@ -1,0 +1,197 @@
+{
+  "baselineProvenance": {
+    "kind": "synthetic",
+    "method": "leave-one-out-multiplication-v1",
+    "parents": [
+      "dimitrov2023_P10_level-ground-walking_slow_lcycle_t1",
+      "dimitrov2023_P10_level-ground-walking_slow_lcycle_t2",
+      "dimitrov2023_P10_level-ground-walking_slow_rcycle_t2",
+      "dimitrov2023_P10_level-ground-walking_slow_rcycle_t3"
+    ],
+    "seed": 1234
+  },
+  "baselines": [
+    {
+      "baselineId": "P10-slow-baseline",
+      "condition": "slow",
+      "estimates": {
+        "initial-swing": {
+          "bandMaxMs": 556.0,
+          "bandMinMs": 343.0,
+          "halfWidthMs": 106.511,
+          "madMs": 23.947,
+          "medianMs": 449.539,
+          "nParents": 4,
+          "nSamples": 24,
+          "quality": "too-variable",
+          "reason": "band half-width is 23.7% of the median, over the 15% cap",
+          "sigmaMs": 35.504
+        },
+        "swing": {
+          "bandMaxMs": 872.0,
+          "bandMinMs": 406.0,
+          "halfWidthMs": 232.998,
+          "madMs": 52.385,
+          "medianMs": 638.629,
+          "nParents": 4,
+          "nSamples": 24,
+          "quality": "too-variable",
+          "reason": "band half-width is 36.5% of the median, over the 15% cap",
+          "sigmaMs": 77.666
+        },
+        "terminal-swing": {
+          "bandMaxMs": 249.0,
+          "bandMinMs": 129.0,
+          "halfWidthMs": 60.331,
+          "madMs": 13.564,
+          "medianMs": 189.09,
+          "nParents": 4,
+          "nSamples": 24,
+          "quality": "too-variable",
+          "reason": "band half-width is 31.9% of the median, over the 15% cap",
+          "sigmaMs": 20.11
+        }
+      },
+      "jitter": 0.01,
+      "kind": "synthetic-multiplication",
+      "nSyntheticSamples": 24,
+      "parentRecordingIds": [
+        "dimitrov2023_P10_level-ground-walking_slow_lcycle_t1",
+        "dimitrov2023_P10_level-ground-walking_slow_lcycle_t2",
+        "dimitrov2023_P10_level-ground-walking_slow_rcycle_t2",
+        "dimitrov2023_P10_level-ground-walking_slow_rcycle_t3"
+      ],
+      "seed": 1234
+    }
+  ],
+  "condition": "slow",
+  "coverage": {
+    "lowCoverage": true,
+    "share": 0.0,
+    "windowsScored": 0,
+    "windowsTotal": 6
+  },
+  "movement": {
+    "family": "level-ground-walking",
+    "label": "level-ground-walking"
+  },
+  "notScored": [
+    {
+      "phase": "swing",
+      "reason": "baseline too-variable: band half-width is 36.5% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_lcycle_t1"
+    },
+    {
+      "phase": "initial-swing",
+      "reason": "baseline too-variable: band half-width is 23.7% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_lcycle_t1"
+    },
+    {
+      "phase": "terminal-swing",
+      "reason": "baseline too-variable: band half-width is 31.9% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_lcycle_t1"
+    },
+    {
+      "phase": "swing",
+      "reason": "baseline too-variable: band half-width is 36.5% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_lcycle_t2"
+    },
+    {
+      "phase": "initial-swing",
+      "reason": "baseline too-variable: band half-width is 23.7% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_lcycle_t2"
+    },
+    {
+      "phase": "terminal-swing",
+      "reason": "baseline too-variable: band half-width is 31.9% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_lcycle_t2"
+    },
+    {
+      "phase": null,
+      "reason": "did not segment: default orientation: no downward zero crossing after the swing peak | mirrored orientation: no toe-off dip before the swing peak",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_lcycle_t3"
+    },
+    {
+      "phase": null,
+      "reason": "did not segment: default orientation: the swing peak is at or beyond the end of the window (swing truncated) | mirrored orientation: no downward zero crossing after the swing peak",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_rcycle_t1"
+    },
+    {
+      "phase": "swing",
+      "reason": "baseline too-variable: band half-width is 36.5% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_rcycle_t2"
+    },
+    {
+      "phase": "initial-swing",
+      "reason": "baseline too-variable: band half-width is 23.7% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_rcycle_t2"
+    },
+    {
+      "phase": "terminal-swing",
+      "reason": "baseline too-variable: band half-width is 31.9% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_rcycle_t2"
+    },
+    {
+      "phase": "swing",
+      "reason": "baseline too-variable: band half-width is 36.5% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_rcycle_t3"
+    },
+    {
+      "phase": "initial-swing",
+      "reason": "baseline too-variable: band half-width is 23.7% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_rcycle_t3"
+    },
+    {
+      "phase": "terminal-swing",
+      "reason": "baseline too-variable: band half-width is 31.9% of the median, over the 15% cap",
+      "recordingId": "dimitrov2023_P10_level-ground-walking_slow_rcycle_t3"
+    }
+  ],
+  "participantId": "P10",
+  "phases": [
+    {
+      "confidence": "primary",
+      "discontinuityRatePct": null,
+      "expectedRangeMs": null,
+      "flaggedReps": 0,
+      "meanDeviationMs": null,
+      "name": "swing",
+      "order": 1,
+      "repetitions": [],
+      "scoredReps": 0
+    },
+    {
+      "confidence": "low",
+      "discontinuityRatePct": null,
+      "expectedRangeMs": null,
+      "flaggedReps": 0,
+      "meanDeviationMs": null,
+      "name": "initial-swing",
+      "order": 2,
+      "repetitions": [],
+      "scoredReps": 0
+    },
+    {
+      "confidence": "low",
+      "discontinuityRatePct": null,
+      "expectedRangeMs": null,
+      "flaggedReps": 0,
+      "meanDeviationMs": null,
+      "name": "terminal-swing",
+      "order": 3,
+      "repetitions": [],
+      "scoredReps": 0
+    }
+  ],
+  "rule": {
+    "capPct": 15.0,
+    "floorPct": 5.0,
+    "k": 3.0,
+    "minParents": 2,
+    "minSamples": 20,
+    "resolution": 0.001,
+    "version": 1
+  },
+  "schemaVersion": 1,
+  "sessionId": "P10-slow"
+}

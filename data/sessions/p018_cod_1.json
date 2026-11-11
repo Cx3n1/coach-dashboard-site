@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "p018_cod_1",
+  "playerId": "p018",
+  "date": "2026-07-03",
+  "sequenceType": "cod",
+  "repetitionCount": 11,
+  "flagThresholdPct": 15,
+  "phases": [
+    {
+      "phase": "approach",
+      "order": 1,
+      "expectedRangeMs": {
+        "min": 340,
+        "max": 420
+      },
+      "meanDeviationMs": 7,
+      "discontinuityRatePct": 9.1,
+      "flaggedReps": 1,
+      "totalReps": 11,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 378,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 296,
+          "flagged": true
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 375,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 396,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 393,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 371,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 391,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 359,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 375,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 363,
+          "flagged": false
+        },
+        {
+          "repIndex": 11,
+          "actualMs": 401,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "plant",
+      "order": 2,
+      "expectedRangeMs": {
+        "min": 120,
+        "max": 180
+      },
+      "meanDeviationMs": 8,
+      "discontinuityRatePct": 9.1,
+      "flaggedReps": 1,
+      "totalReps": 11,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 96,
+          "flagged": true
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 145,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 139,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 144,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 163,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 136,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 148,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 160,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 164,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 136,
+          "flagged": false
+        },
+        {
+          "repIndex": 11,
+          "actualMs": 153,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "cut",
+      "order": 3,
+      "expectedRangeMs": {
+        "min": 180,
+        "max": 260
+      },
+      "meanDeviationMs": 9,
+      "discontinuityRatePct": 9.1,
+      "flaggedReps": 1,
+      "totalReps": 11,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 244,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 240,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 204,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 219,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 216,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 211,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 218,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 202,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 212,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 136,
+          "flagged": true
+        },
+        {
+          "repIndex": 11,
+          "actualMs": 224,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "recovery",
+      "order": 4,
+      "expectedRangeMs": {
+        "min": 300,
+        "max": 400
+      },
+      "meanDeviationMs": 2,
+      "discontinuityRatePct": 0,
+      "flaggedReps": 0,
+      "totalReps": 11,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 346,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 381,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 358,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 374,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 327,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 380,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 336,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 331,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 317,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 342,
+          "flagged": false
+        },
+        {
+          "repIndex": 11,
+          "actualMs": 316,
+          "flagged": false
+        }
+      ]
+    }
+  ],
+  "baseline": {
+    "kind": "established",
+    "from": "2026-06-09",
+    "to": "2026-06-30",
+    "repetitions": 23
+  },
+  "context": {
+    "drill": "45° change-of-direction run",
+    "surface": "Grass",
+    "conditions": "Wet"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "p016_cutting_1",
+  "playerId": "p016",
+  "date": "2026-07-08",
+  "sequenceType": "cutting",
+  "repetitionCount": 11,
+  "flagThresholdPct": 15,
+  "phases": [
+    {
+      "phase": "approach",
+      "order": 1,
+      "expectedRangeMs": {
+        "min": 340,
+        "max": 420
+      },
+      "meanDeviationMs": 7,
+      "discontinuityRatePct": 9.1,
+      "flaggedReps": 1,
+      "totalReps": 11,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 354,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 355,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 381,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 358,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 308,
+          "flagged": true
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 393,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 361,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 372,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 406,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 365,
+          "flagged": false
+        },
+        {
+          "repIndex": 11,
+          "actualMs": 398,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "plant",
+      "order": 2,
+      "expectedRangeMs": {
+        "min": 120,
+        "max": 180
+      },
+      "meanDeviationMs": 9,
+      "discontinuityRatePct": 9.1,
+      "flaggedReps": 1,
+      "totalReps": 11,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 140,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 88,
+          "flagged": true
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 171,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 130,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 167,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 135,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 132,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 151,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 147,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 134,
+          "flagged": false
+        },
+        {
+          "repIndex": 11,
+          "actualMs": 132,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "cut",
+      "order": 3,
+      "expectedRangeMs": {
+        "min": 180,
+        "max": 260
+      },
+      "meanDeviationMs": 7,
+      "discontinuityRatePct": 9.1,
+      "flaggedReps": 1,
+      "totalReps": 11,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 219,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 217,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 196,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 207,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 213,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 229,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 203,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 136,
+          "flagged": true
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 208,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 233,
+          "flagged": false
+        },
+        {
+          "repIndex": 11,
+          "actualMs": 195,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "recovery",
+      "order": 4,
+      "expectedRangeMs": {
+        "min": 300,
+        "max": 400
+      },
+      "meanDeviationMs": 3,
+      "discontinuityRatePct": 9.1,
+      "flaggedReps": 1,
+      "totalReps": 11,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 278,
+          "flagged": true
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 381,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 374,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 379,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 346,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 356,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 383,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 345,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 359,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 384,
+          "flagged": false
+        },
+        {
+          "repIndex": 11,
+          "actualMs": 345,
+          "flagged": false
+        }
+      ]
+    }
+  ],
+  "baseline": {
+    "kind": "established",
+    "from": "2026-06-16",
+    "to": "2026-07-05",
+    "repetitions": 21
+  },
+  "context": {
+    "drill": "Reactive cut to a call",
+    "surface": "Grass",
+    "conditions": "Dry"
+  }
+}

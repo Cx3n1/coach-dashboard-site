@@ -1,0 +1,251 @@
+{
+  "baselineProvenance": {
+    "kind": "synthetic",
+    "method": "leave-one-out-multiplication-v1",
+    "parents": [
+      "dimitrov2023_P02_level-ground-walking_fast_lcycle_t1",
+      "dimitrov2023_P02_level-ground-walking_fast_lcycle_t2",
+      "dimitrov2023_P02_level-ground-walking_fast_lcycle_t3"
+    ],
+    "seed": 1234
+  },
+  "baselines": [
+    {
+      "baselineId": "P02-fast-baseline",
+      "condition": "fast",
+      "estimates": {
+        "initial-swing": {
+          "bandMaxMs": 247.0,
+          "bandMinMs": 204.0,
+          "halfWidthMs": 21.706,
+          "madMs": 4.88,
+          "medianMs": 225.35,
+          "nParents": 3,
+          "nSamples": 24,
+          "quality": "ok",
+          "reason": "",
+          "sigmaMs": 7.235
+        },
+        "swing": {
+          "bandMaxMs": 390.0,
+          "bandMinMs": 327.0,
+          "halfWidthMs": 31.495,
+          "madMs": 7.081,
+          "medianMs": 358.766,
+          "nParents": 3,
+          "nSamples": 24,
+          "quality": "ok",
+          "reason": "",
+          "sigmaMs": 10.498
+        },
+        "terminal-swing": {
+          "bandMaxMs": 157.0,
+          "bandMinMs": 117.0,
+          "halfWidthMs": 19.724,
+          "madMs": 4.435,
+          "medianMs": 136.795,
+          "nParents": 3,
+          "nSamples": 24,
+          "quality": "ok",
+          "reason": "",
+          "sigmaMs": 6.575
+        }
+      },
+      "jitter": 0.01,
+      "kind": "synthetic-multiplication",
+      "nSyntheticSamples": 24,
+      "parentRecordingIds": [
+        "dimitrov2023_P02_level-ground-walking_fast_lcycle_t1",
+        "dimitrov2023_P02_level-ground-walking_fast_lcycle_t2",
+        "dimitrov2023_P02_level-ground-walking_fast_lcycle_t3"
+      ],
+      "seed": 1234
+    }
+  ],
+  "condition": "fast",
+  "coverage": {
+    "lowCoverage": false,
+    "share": 0.5,
+    "windowsScored": 3,
+    "windowsTotal": 6
+  },
+  "movement": {
+    "family": "level-ground-walking",
+    "label": "level-ground-walking"
+  },
+  "notScored": [
+    {
+      "phase": null,
+      "reason": "did not segment: default orientation: the toe-off dip is at the start of the window (dip truncated) | mirrored orientation: no downward zero crossing after the swing peak",
+      "recordingId": "dimitrov2023_P02_level-ground-walking_fast_rcycle_t1"
+    },
+    {
+      "phase": null,
+      "reason": "did not segment: default orientation: the toe-off dip is at the start of the window (dip truncated) | mirrored orientation: no toe-off dip before the swing peak",
+      "recordingId": "dimitrov2023_P02_level-ground-walking_fast_rcycle_t2"
+    },
+    {
+      "phase": null,
+      "reason": "did not segment: default orientation: the toe-off dip is at the start of the window (dip truncated) | mirrored orientation: no toe-off dip before the swing peak",
+      "recordingId": "dimitrov2023_P02_level-ground-walking_fast_rcycle_t3"
+    }
+  ],
+  "participantId": "P02",
+  "phases": [
+    {
+      "confidence": "primary",
+      "discontinuityRatePct": 33.3,
+      "expectedRangeMs": {
+        "max": 390.0,
+        "min": 327.0
+      },
+      "flaggedReps": 1,
+      "meanDeviationMs": 51.7,
+      "name": "swing",
+      "order": 1,
+      "repetitions": [
+        {
+          "actualMs": 507.397,
+          "bandMaxMs": 390.0,
+          "bandMinMs": 327.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 358.766,
+          "flagged": true,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t1_w-tempo1.3",
+          "repIndex": 1,
+          "synthetic": true
+        },
+        {
+          "actualMs": 355.1,
+          "bandMaxMs": 390.0,
+          "bandMinMs": 327.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 358.766,
+          "flagged": false,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t2",
+          "repIndex": 2,
+          "synthetic": false
+        },
+        {
+          "actualMs": 355.816,
+          "bandMaxMs": 390.0,
+          "bandMinMs": 327.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 358.766,
+          "flagged": false,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t3",
+          "repIndex": 3,
+          "synthetic": false
+        }
+      ],
+      "scoredReps": 3
+    },
+    {
+      "confidence": "low",
+      "discontinuityRatePct": 33.3,
+      "expectedRangeMs": {
+        "max": 247.0,
+        "min": 204.0
+      },
+      "flaggedReps": 1,
+      "meanDeviationMs": 34.2,
+      "name": "initial-swing",
+      "order": 2,
+      "repetitions": [
+        {
+          "actualMs": 320.858,
+          "bandMaxMs": 247.0,
+          "bandMinMs": 204.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 225.35,
+          "flagged": true,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t1_w-tempo1.3",
+          "repIndex": 1,
+          "synthetic": true
+        },
+        {
+          "actualMs": 223.953,
+          "bandMaxMs": 247.0,
+          "bandMinMs": 204.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 225.35,
+          "flagged": false,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t2",
+          "repIndex": 2,
+          "synthetic": false
+        },
+        {
+          "actualMs": 219.714,
+          "bandMaxMs": 247.0,
+          "bandMinMs": 204.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 225.35,
+          "flagged": false,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t3",
+          "repIndex": 3,
+          "synthetic": false
+        }
+      ],
+      "scoredReps": 3
+    },
+    {
+      "confidence": "low",
+      "discontinuityRatePct": 33.3,
+      "expectedRangeMs": {
+        "max": 157.0,
+        "min": 117.0
+      },
+      "flaggedReps": 1,
+      "meanDeviationMs": 18.7,
+      "name": "terminal-swing",
+      "order": 3,
+      "repetitions": [
+        {
+          "actualMs": 186.538,
+          "bandMaxMs": 157.0,
+          "bandMinMs": 117.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 136.795,
+          "flagged": true,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t1_w-tempo1.3",
+          "repIndex": 1,
+          "synthetic": true
+        },
+        {
+          "actualMs": 131.147,
+          "bandMaxMs": 157.0,
+          "bandMinMs": 117.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 136.795,
+          "flagged": false,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t2",
+          "repIndex": 2,
+          "synthetic": false
+        },
+        {
+          "actualMs": 136.102,
+          "bandMaxMs": 157.0,
+          "bandMinMs": 117.0,
+          "baselineId": "P02-fast-baseline",
+          "baselineMedianMs": 136.795,
+          "flagged": false,
+          "recordingId": "dimitrov2023_P02_level-ground-walking_fast_lcycle_t3",
+          "repIndex": 3,
+          "synthetic": false
+        }
+      ],
+      "scoredReps": 3
+    }
+  ],
+  "rule": {
+    "capPct": 15.0,
+    "floorPct": 5.0,
+    "k": 3.0,
+    "minParents": 2,
+    "minSamples": 20,
+    "resolution": 0.001,
+    "version": 1
+  },
+  "schemaVersion": 1,
+  "sessionId": "P02-fast-stretch1.3"
+}

@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "p013_cod_1",
+  "playerId": "p013",
+  "date": "2026-07-16",
+  "sequenceType": "cod",
+  "repetitionCount": 8,
+  "flagThresholdPct": 15,
+  "phases": [
+    {
+      "phase": "approach",
+      "order": 1,
+      "expectedRangeMs": {
+        "min": 340,
+        "max": 420
+      },
+      "meanDeviationMs": 9,
+      "discontinuityRatePct": 12.5,
+      "flaggedReps": 1,
+      "totalReps": 8,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 404,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 361,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 449,
+          "flagged": true
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 398,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 373,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 385,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 384,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 353,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "plant",
+      "order": 2,
+      "expectedRangeMs": {
+        "min": 120,
+        "max": 180
+      },
+      "meanDeviationMs": 18,
+      "discontinuityRatePct": 25,
+      "flaggedReps": 2,
+      "totalReps": 8,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 143,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 167,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 196,
+          "flagged": true
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 168,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 157,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 167,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 198,
+          "flagged": true
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 170,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "cut",
+      "order": 3,
+      "expectedRangeMs": {
+        "min": 180,
+        "max": 260
+      },
+      "meanDeviationMs": 14,
+      "discontinuityRatePct": 12.5,
+      "flaggedReps": 1,
+      "totalReps": 8,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 235,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 241,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 244,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 229,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 213,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 303,
+          "flagged": true
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 230,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 200,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "recovery",
+      "order": 4,
+      "expectedRangeMs": {
+        "min": 300,
+        "max": 400
+      },
+      "meanDeviationMs": 7,
+      "discontinuityRatePct": 12.5,
+      "flaggedReps": 1,
+      "totalReps": 8,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 373,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 363,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 359,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 322,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 431,
+          "flagged": true
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 378,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 340,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 350,
+          "flagged": false
+        }
+      ]
+    }
+  ],
+  "baseline": {
+    "kind": "post-injury-anchor",
+    "from": "2026-05-23",
+    "to": "2026-06-01",
+    "repetitions": 12
+  },
+  "context": {
+    "drill": "Reactive 90° turn",
+    "surface": "Grass",
+    "conditions": "Dry"
+  }
+}

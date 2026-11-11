@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "p023_cod_2",
+  "playerId": "p023",
+  "date": "2026-07-09",
+  "sequenceType": "cod",
+  "repetitionCount": 10,
+  "flagThresholdPct": 15,
+  "phases": [
+    {
+      "phase": "approach",
+      "order": 1,
+      "expectedRangeMs": {
+        "min": 340,
+        "max": 420
+      },
+      "meanDeviationMs": 6,
+      "discontinuityRatePct": 0,
+      "flaggedReps": 0,
+      "totalReps": 10,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 394,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 388,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 359,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 406,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 382,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 359,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 395,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 376,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 379,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 397,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "plant",
+      "order": 2,
+      "expectedRangeMs": {
+        "min": 120,
+        "max": 180
+      },
+      "meanDeviationMs": 4,
+      "discontinuityRatePct": 10,
+      "flaggedReps": 1,
+      "totalReps": 10,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 146,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 133,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 100,
+          "flagged": true
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 138,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 142,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 162,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 150,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 169,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 157,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 158,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "cut",
+      "order": 3,
+      "expectedRangeMs": {
+        "min": 180,
+        "max": 260
+      },
+      "meanDeviationMs": 10,
+      "discontinuityRatePct": 10,
+      "flaggedReps": 1,
+      "totalReps": 10,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 238,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 242,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 215,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 299,
+          "flagged": true
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 236,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 219,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 238,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 205,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 200,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 205,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "recovery",
+      "order": 4,
+      "expectedRangeMs": {
+        "min": 300,
+        "max": 400
+      },
+      "meanDeviationMs": 8,
+      "discontinuityRatePct": 10,
+      "flaggedReps": 1,
+      "totalReps": 10,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 346,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 373,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 375,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 375,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 366,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 434,
+          "flagged": true
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 322,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 385,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 328,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 380,
+          "flagged": false
+        }
+      ]
+    }
+  ],
+  "baseline": {
+    "kind": "established",
+    "from": "2026-06-15",
+    "to": "2026-06-30",
+    "repetitions": 22
+  },
+  "context": {
+    "drill": "Pro-agility shuttle",
+    "surface": "Grass",
+    "conditions": "Dry"
+  }
+}

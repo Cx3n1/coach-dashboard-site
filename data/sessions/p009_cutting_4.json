@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "p009_cutting_4",
+  "playerId": "p009",
+  "date": "2026-07-25",
+  "sequenceType": "cutting",
+  "repetitionCount": 10,
+  "flagThresholdPct": 15,
+  "phases": [
+    {
+      "phase": "approach",
+      "order": 1,
+      "expectedRangeMs": {
+        "min": 340,
+        "max": 420
+      },
+      "meanDeviationMs": 6,
+      "discontinuityRatePct": 10,
+      "flaggedReps": 1,
+      "totalReps": 10,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 455,
+          "flagged": true
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 372,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 403,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 371,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 368,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 393,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 397,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 364,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 391,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 358,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "plant",
+      "order": 2,
+      "expectedRangeMs": {
+        "min": 120,
+        "max": 180
+      },
+      "meanDeviationMs": 7,
+      "discontinuityRatePct": 10,
+      "flaggedReps": 1,
+      "totalReps": 10,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 168,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 163,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 131,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 132,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 143,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 168,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 170,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 106,
+          "flagged": true
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 150,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 148,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "cut",
+      "order": 3,
+      "expectedRangeMs": {
+        "min": 180,
+        "max": 260
+      },
+      "meanDeviationMs": 6,
+      "discontinuityRatePct": 0,
+      "flaggedReps": 0,
+      "totalReps": 10,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 231,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 217,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 195,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 245,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 222,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 201,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 227,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 198,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 215,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 228,
+          "flagged": false
+        }
+      ]
+    },
+    {
+      "phase": "recovery",
+      "order": 4,
+      "expectedRangeMs": {
+        "min": 300,
+        "max": 400
+      },
+      "meanDeviationMs": 2,
+      "discontinuityRatePct": 0,
+      "flaggedReps": 0,
+      "totalReps": 10,
+      "repetitions": [
+        {
+          "repIndex": 1,
+          "actualMs": 384,
+          "flagged": false
+        },
+        {
+          "repIndex": 2,
+          "actualMs": 319,
+          "flagged": false
+        },
+        {
+          "repIndex": 3,
+          "actualMs": 321,
+          "flagged": false
+        },
+        {
+          "repIndex": 4,
+          "actualMs": 367,
+          "flagged": false
+        },
+        {
+          "repIndex": 5,
+          "actualMs": 334,
+          "flagged": false
+        },
+        {
+          "repIndex": 6,
+          "actualMs": 351,
+          "flagged": false
+        },
+        {
+          "repIndex": 7,
+          "actualMs": 381,
+          "flagged": false
+        },
+        {
+          "repIndex": 8,
+          "actualMs": 318,
+          "flagged": false
+        },
+        {
+          "repIndex": 9,
+          "actualMs": 344,
+          "flagged": false
+        },
+        {
+          "repIndex": 10,
+          "actualMs": 348,
+          "flagged": false
+        }
+      ]
+    }
+  ],
+  "baseline": {
+    "kind": "established",
+    "from": "2026-06-15",
+    "to": "2026-06-30",
+    "repetitions": 20
+  },
+  "context": {
+    "drill": "3-cone cut drill",
+    "surface": "Artificial",
+    "conditions": "Dry"
+  }
+}

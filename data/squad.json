@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "players": [
+    {
+      "schemaVersion": 1,
+      "id": "p001",
+      "name": "Jordan Reeves",
+      "position": "Outside Centre",
+      "squadNumber": 13,
+      "rtp": {
+        "status": "stage-5-full-training",
+        "concussionDate": "2026-06-10",
+        "daysSinceInjury": 49
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "improving",
+        "score": 15,
+        "latestAvgDiscontinuityRatePct": 10,
+        "asOfSessionId": "p001_cutting_5"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p002",
+      "name": "Liam Byrne",
+      "position": "Number 8",
+      "squadNumber": 8,
+      "rtp": {
+        "status": "stage-4-noncontact-training",
+        "concussionDate": "2026-07-08",
+        "daysSinceInjury": 21
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "elevated",
+        "trend": "worsening",
+        "score": 55,
+        "latestAvgDiscontinuityRatePct": 30,
+        "asOfSessionId": "p002_cod_3"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p003",
+      "name": "Sione Fifita",
+      "position": "Tighthead Prop",
+      "squadNumber": 3,
+      "rtp": {
+        "status": "not-injured",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 5,
+        "latestAvgDiscontinuityRatePct": 5,
+        "asOfSessionId": "p003_cutting_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p004",
+      "name": "Cormac Barrett",
+      "position": "Tighthead Prop",
+      "squadNumber": 12,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 5,
+        "latestAvgDiscontinuityRatePct": 4.6,
+        "asOfSessionId": "p004_cutting_3"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p005",
+      "name": "Rhys Byrne",
+      "position": "Openside Flanker",
+      "squadNumber": 20,
+      "rtp": {
+        "status": "stage-4-noncontact-training",
+        "concussionDate": "2026-06-28",
+        "daysSinceInjury": 31
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "moderate",
+        "trend": "stable",
+        "score": 33,
+        "latestAvgDiscontinuityRatePct": 17.5,
+        "asOfSessionId": "p005_cutting_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p006",
+      "name": "Will Kelly",
+      "position": "Number 8",
+      "squadNumber": 21,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 8,
+        "latestAvgDiscontinuityRatePct": 7.5,
+        "asOfSessionId": "p006_cutting_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p007",
+      "name": "Marcus Kelly",
+      "position": "Fly-half",
+      "squadNumber": 17,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": "2026-04-24",
+        "daysSinceInjury": 96
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 22,
+        "latestAvgDiscontinuityRatePct": 22.2,
+        "asOfSessionId": "p007_cod_2"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p008",
+      "name": "Jordan Carter",
+      "position": "Tighthead Prop",
+      "squadNumber": 28,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "improving",
+        "score": 0,
+        "latestAvgDiscontinuityRatePct": 4.2,
+        "asOfSessionId": "p008_cod_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p009",
+      "name": "Liam Ryan",
+      "position": "Fly-half",
+      "squadNumber": 7,
+      "rtp": {
+        "status": "not-injured",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 5,
+        "latestAvgDiscontinuityRatePct": 5,
+        "asOfSessionId": "p009_cutting_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p010",
+      "name": "Harry Whelan",
+      "position": "Loosehead Prop",
+      "squadNumber": 9,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 8,
+        "latestAvgDiscontinuityRatePct": 8.3,
+        "asOfSessionId": "p010_cod_2"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p011",
+      "name": "Isaac Coleman",
+      "position": "Outside Centre",
+      "squadNumber": 18,
+      "rtp": {
+        "status": "not-injured",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 5,
+        "latestAvgDiscontinuityRatePct": 4.6,
+        "asOfSessionId": "p011_cutting_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p012",
+      "name": "Ben Carter",
+      "position": "Scrum-half",
+      "squadNumber": 2,
+      "rtp": {
+        "status": "not-injured",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 4,
+        "latestAvgDiscontinuityRatePct": 4.2,
+        "asOfSessionId": "p012_cutting_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p013",
+      "name": "Marcus Tobin",
+      "position": "Right Wing",
+      "squadNumber": 6,
+      "rtp": {
+        "status": "stage-5-full-training",
+        "concussionDate": "2026-05-20",
+        "daysSinceInjury": 70
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 19,
+        "latestAvgDiscontinuityRatePct": 18.8,
+        "asOfSessionId": "p013_cod_2"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p014",
+      "name": "Jordan Kelly",
+      "position": "Fly-half",
+      "squadNumber": 15,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 6,
+        "latestAvgDiscontinuityRatePct": 5.6,
+        "asOfSessionId": "p014_cod_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p015",
+      "name": "Cormac Lynch",
+      "position": "Hooker",
+      "squadNumber": 4,
+      "rtp": {
+        "status": "not-injured",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 8,
+        "latestAvgDiscontinuityRatePct": 7.5,
+        "asOfSessionId": "p015_cutting_2"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p016",
+      "name": "Zach Ryan",
+      "position": "Scrum-half",
+      "squadNumber": 22,
+      "rtp": {
+        "status": "not-injured",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 10,
+        "latestAvgDiscontinuityRatePct": 10,
+        "asOfSessionId": "p016_cutting_3"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p017",
+      "name": "Sam Whelan",
+      "position": "Right Wing",
+      "squadNumber": 5,
+      "rtp": {
+        "status": "not-injured",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 7,
+        "latestAvgDiscontinuityRatePct": 6.8,
+        "asOfSessionId": "p017_cutting_3"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p018",
+      "name": "Jack Ryan",
+      "position": "Scrum-half",
+      "squadNumber": 29,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 4,
+        "latestAvgDiscontinuityRatePct": 4.2,
+        "asOfSessionId": "p018_cod_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p019",
+      "name": "Noah Quinn",
+      "position": "Right Wing",
+      "squadNumber": 16,
+      "rtp": {
+        "status": "stage-4-noncontact-training",
+        "concussionDate": "2026-05-19",
+        "daysSinceInjury": 71
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "moderate",
+        "trend": "stable",
+        "score": 25,
+        "latestAvgDiscontinuityRatePct": 25,
+        "asOfSessionId": "p019_cutting_3"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p020",
+      "name": "Jordan Byrne",
+      "position": "Scrum-half",
+      "squadNumber": 26,
+      "rtp": {
+        "status": "not-injured",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 0,
+        "latestAvgDiscontinuityRatePct": 0,
+        "asOfSessionId": "p020_cutting_2"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p021",
+      "name": "Zach Lynch",
+      "position": "Right Wing",
+      "squadNumber": 25,
+      "rtp": {
+        "status": "stage-5-full-training",
+        "concussionDate": "2026-05-22",
+        "daysSinceInjury": 68
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 18,
+        "latestAvgDiscontinuityRatePct": 17.5,
+        "asOfSessionId": "p021_cod_4"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p022",
+      "name": "Jordan Slater",
+      "position": "Left Wing",
+      "squadNumber": 23,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cutting"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 5,
+        "latestAvgDiscontinuityRatePct": 4.6,
+        "asOfSessionId": "p022_cutting_3"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "p023",
+      "name": "Callum Fitzgerald",
+      "position": "Openside Flanker",
+      "squadNumber": 1,
+      "rtp": {
+        "status": "stage-6-cleared",
+        "concussionDate": null,
+        "daysSinceInjury": null
+      },
+      "sequenceTypes": [
+        "cod"
+      ],
+      "riskIndicator": {
+        "level": "low",
+        "trend": "stable",
+        "score": 9,
+        "latestAvgDiscontinuityRatePct": 9.4,
+        "asOfSessionId": "p023_cod_4"
+      }
+    }
+  ]
+}
